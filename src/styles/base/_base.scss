@@ -1,0 +1,127 @@
+/* html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: $m-size;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+} */
+
+* {
+    box-sizing: border-box !important;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif !important;
+    font-size: $m-size;
+    color: $dark-grey !important;
+    line-height: 1.6;
+}
+
+.is-active {
+    font-weight: bold;
+}
+
+.main-bg {
+    background: url("/images/bg.jpg");
+
+    background-size: cover;
+    height: 100vh;
+}
+
+.login-box {
+    /*  background: fade-out($color: white, $amount: 0.85); */
+    border-radius: 3px;
+    width: 100vw;
+    /* width: 20rem; */
+}
+
+.login-title {
+    color: $electric-green;
+    line-height: 1;
+}
+
+.motto {
+    color: $aliceblue;
+}
+
+.DateRangePicker.DateRangePicker_1 {
+    width: 100% !important;
+}
+
+.DateRangePickerInput.DateRangePickerInput_1.DateRangePickerInput__withBorder.DateRangePickerInput__withBorder_2.DateRangePickerInput__showClearDates.DateRangePickerInput__showClearDates_3 {
+    border-color: $dark-grey !important;
+    border-width: 1px !important;
+    padding-right: 0;
+}
+
+.basic-input {
+    height: 50px !important;
+    border-color: $dark-grey !important;
+    border-width: 1px !important;
+}
+
+.basic-textarea {
+    @extend .basic-input;
+    height: 10rem !important;
+}
+
+.SingleDatePickerInput.SingleDatePickerInput_1.SingleDatePickerInput__withBorder.SingleDatePickerInput__withBorder_2 {
+    @extend .basic-input;
+}
+
+.SingleDatePicker.SingleDatePicker_1,
+.SingleDatePickerInput.SingleDatePickerInput_1.SingleDatePickerInput__withBorder.SingleDatePickerInput__withBorder_2 {
+    @extend .w-100;
+}
+
+.form > * {
+    @extend .mb-3;
+}
+
+.fieldarray > a {
+    cursor: default;
+    transition: background 0.3s ease;
+    text-decoration: none;
+    &:link {
+        text-decoration: none;
+    }
+    &:visited {
+        text-decoration: none;
+    }
+    &:hover {
+        text-decoration: none;
+        background: $aliceblue;
+    }
+    &:active {
+        text-decoration: none;
+    }
+}
+
+.fieldarray > a:nth-child(odd) {
+    @extend .bg-light
+    /* background: $white-green; */;
+}
+
+.datepicker > div > div > div {
+    @extend .basic-input;
+}
+
+.blur {
+    background-color: $ebony-clay;
+    background-color: rgba(34, 49, 63, 0.8);
+    color: $aliceblue;
+}
+
+.fieldgroup {
+    @extend .d-flex;
+    @extend .justify-content-between;
+}

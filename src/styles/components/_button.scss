@@ -1,0 +1,6 @@
+.bigbutton {
+    @include (max-width: 1199.98px) {
+        height: 7rem !important;
+        vertical-align: middle !important;
+    }
+}

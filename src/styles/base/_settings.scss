@@ -1,0 +1,25 @@
+// Colors
+$dark-grey: #333333;
+$electric-green: #70E233;
+$white-green: #F3FCE8;
+$dark-blue: #364051;
+$dark-red: #d7411d;
+$light-blue: #e4f1fe;
+$primary-color: #4183d7;
+$ebony-clay: #22313f;
+$aliceblue: #e4f1fe;
+// Spacing
+$s-size: 1.2rem;
+$m-size: 1.6rem;
+$l-size: 3.2rem;
+$xl-size: 4.8rem;
+$desktop-breakpoint: 45rem;
+
+$theme-colors: (
+  "primary": $primary-color,
+  "danger": #ff4136,
+  "dark": $dark-grey,
+  "lightBlue": $light-blue,
+  "darkdanger": $ebony-clay,
+  "darkred": $dark-red
+);

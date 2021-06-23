@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render DashboardPage 1`] = `
+<div
+  className="d-flex justify-content-between flex-column"
+>
+  Dashboard page
+</div>
+`;

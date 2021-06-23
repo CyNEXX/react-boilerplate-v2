@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render Header correctly 1`] = `
+<div
+  className="bg-dark text-light"
+>
+  <div
+    className="content-container d-flex justify-content-between py-2 px-3"
+  >
+    <Link
+      className="font-weight-bold text-light h2 mb-0"
+      to="/dashboard"
+    >
+      boilerplate
+    </Link>
+    <div
+      className="justify-content-end text-light"
+    >
+      <span>
+        Signed in as: 
+      </span>
+      <span
+        className="font-weight-bold"
+      />
+      <img
+        alt="Profile picture"
+        className="profile_pic mx-3"
+      />
+      <Button
+        active={false}
+        className="btn btn-dark btn-outline-light"
+        disabled={false}
+        id="signout"
+        type="button"
+        variant="primary"
+      >
+        Sign Out
+      </Button>
+    </div>
+  </div>
+</div>
+`;
